@@ -4,6 +4,7 @@
 --cor-secundaria:#2bdefd;
 --cor-texto: #ffffff;
 --cor-destaque:#212333;
+
 }
 
 body{
@@ -14,4 +15,15 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
+}
+
+
+
+.caixa-principal{
+
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
 }
